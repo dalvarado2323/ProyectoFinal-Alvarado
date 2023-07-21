@@ -1,0 +1,170 @@
+:root {
+    --pantone1-color: #510c76;
+    --pantone2-color: #f4b223;
+    --pantone3-color: white;
+    --pantone4-color: black;
+    --tamano1-font-size: 50px;
+    --tamano2-font-size: 40px;
+    --tamano3-font-size: 30px;
+}
+
+body {
+    background-color: var(--pantone3-color);
+    color: var(--pantone4-color);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: var(--pantone1-color);
+    color: var(--pantone3-color);
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: var(--tamano1-font-size);
+    margin: 0;
+}
+
+h2 {
+    color: var(--pantone1-color);
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+footer {
+    text-align: center;
+    color: var(--pantone1-color);
+    font-size: var(--tamano1-font-size);
+}
+
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.service {
+    background-color: var(--pantone2-color);
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    width: 200px;
+}
+
+.service-info {
+    margin-bottom: 20px;
+}
+
+.service-icon {
+    font-size: var(--tamano3-font-size);
+}
+
+.service-title {
+    font-size: var(--tamano2-font-size);
+    margin-bottom: 10px;
+}
+
+.service-price {
+    font-size: var(--tamano3-font-size);
+}
+
+.service-actions button {
+    background-color: var(--pantone1-color);
+    border: none;
+    border-radius: 5px;
+    color: var(--pantone3-color);
+    cursor: pointer;
+    font-size: var(--tamano3-font-size);
+    padding: 10px;
+    transition: background-color 0.3s;
+}
+
+.service-actions button:hover {
+    background-color: var(--pantone2-color);
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 5px;
+    padding: 20px;
+}
+
+label {
+    font-size: var(--tamano3-font-size);
+}
+
+input {
+    border: 1px solid var(--pantone1-color);
+    border-radius: 5px;
+    font-size: var(--tamano3-font-size);
+    padding: 5px;
+}
+
+button#btnConectar {
+    background-color: var(--pantone1-color);
+    border: none;
+    border-radius: 5px;
+    color: var(--pantone3-color);
+    cursor: pointer;
+    font-size: var(--tamano3-font-size);
+    padding: 10px;
+    transition: background-color 0.3s;
+}
+
+/* Estilo del carrito flotante */
+.cartContainer {
+    position: fixed;
+    top: 50%;
+    right: 300px;
+    transform: translateY(-10%);
+    transform: translateX(-40%);
+    width: 250px;
+    background-color: var(--secondary-color);
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 999;
+}
+
+.cartContainer h3 {
+    font-size: var(--font-size2);
+    color: var(--primary-color);
+    margin-bottom: 10px;
+}
+
+.cart-items {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.cart-total {
+    display: flex;
+    justify-content: space-between;
+    font-size: var(--font-size3);
+    font-weight: bold;
+}
+
+.button {
+    background-color: var(--primary-color);
+    color: var(--button-color);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: var(--font-size3);
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: var(--button-hover-color);
+}

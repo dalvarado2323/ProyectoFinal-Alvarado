@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "Brahma",
+    "price": 110,
+    "icon": "🙋🏻‍♂️"
+  },
+  {
+    "id": 2,
+    "name": "Lakshmi",
+    "price": 220,
+    "icon": "🙇🏻‍♀️"
+  },
+  {
+    "id": 3,
+    "name": "Saraswati",
+    "price": 330,
+    "icon": "👩🏼‍🦳"
+  },
+  {
+    "id": 4,
+    "name": "Sati",
+    "price": 440,
+    "icon": "🙋🏻‍♀️"
+  },
+  {
+    "id": 5,
+    "name": "Shiva",
+    "price": 550,
+    "icon": "👳🏼‍♀️"
+  }
+]

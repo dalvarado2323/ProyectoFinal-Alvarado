@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Meditacion SI</title>
+    <link rel="shortcut icon" href="img/favicon logo aun si _-removebg-preview.ico" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Meditacion Store</h1>
+    </header>
+
+    <main>
+        <div class="services">
+            <!-- Aquí se mostrarán los servicios generados dinámicamente -->
+        </div>
+
+        <div class="inputs">
+            <h2>Registrate y Realiza tu Compra</h2>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre">
+            <label for="apellido">Apellido:</label>
+            <input type="text" id="apellido">
+            <label for="correo">Correo Electrónico:</label>
+            <input type="email" id="correo">
+            <button id="btnConectar">Conectar</button>
+        </div>
+
+        <div id="saludo"></div>
+    </main>
+
+    <div class="cartContainer">
+        <div class="floating-cart" id="cartContainer">
+            <h3>Carrito de Compras</h3>
+            <ul id="cartItems" class="cart-items">
+                <!-- Aquí se mostrarán los productos agregados al carrito -->
+            </ul>
+            <div class="cart-total">
+                <p>Total:</p>
+                <p id="cartTotal">$0</p>
+            </div>
+            <div class="cart-buttons">
+                <button id="btnComprar" class="button">Comprar</button>
+                <button id="btnCancelar" class="button">Cancelar</button>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>Recuerda que los costos son por minuto de Meditacion!</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="/js/script.js"></script>
+    <script src="/js/main.js"></script>
+
+</body>
+
+</html>
